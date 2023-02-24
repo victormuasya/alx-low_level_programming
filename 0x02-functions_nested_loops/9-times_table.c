@@ -3,7 +3,7 @@
  * Auth: Brennan D Baraban
  */
 
-#include "main.h"
+#include <stdio.h>
 
 /**
  * times_table - Prints the 9 times table, starting with 0.
@@ -32,4 +32,7 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
+
+
+return 0;
 }
