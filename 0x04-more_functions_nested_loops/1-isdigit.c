@@ -1,26 +1,21 @@
 /*
- * File: 101-print_number.c
+ * File: 1-isdigit.c
  * Auth: Brennan D Baraban
  */
 
 #include "main.h"
 
 /**
- * print_number - Prints an integer.
- * @n: The integer to be printed.
+ * _isdigit - Checks for a digit (0-9).
+ * @c: The number to be checked.
+ *
+ * Return: 1 if the number is a digit, 0 otherwise.
  */
-void print_number(int n)
+int _isdigit(int c)
 {
-	unsigned int num = n;
+	if (c >= '0' && c <= '9')
+		return (1);
 
-	if (n < 0)
-	{
-		_putchar('-');
-		num = -num;
-	}
-
-	if ((num / 10) > 0)
-		print_number(num / 10);
-
-	_putchar((num % 10) + '0');
+	else
+		return (0);
 }
