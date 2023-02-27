@@ -1,6 +1,6 @@
 /*
  * File: 5-rev_string.c
- 
+ * Auth:vic
  */
 
 #include "main.h"
