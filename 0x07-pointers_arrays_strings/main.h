@@ -1,5 +1,5 @@
-#ifndef AAC51BFD_F85E_41F9_8C64_1C7F4CDADE65
-#define AAC51BFD_F85E_41F9_8C64_1C7F4CDADE65
+#ifndef CAA15F98_A1D9_491C_B9BC_F68280097671
+#define CAA15F98_A1D9_491C_B9BC_F68280097671
 int _putchar(char);
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
@@ -11,4 +11,5 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
 
-#endif /* AAC51BFD_F85E_41F9_8C64_1C7F4CDADE65 */
+
+#endif /* CAA15F98_A1D9_491C_B9BC_F68280097671 */
