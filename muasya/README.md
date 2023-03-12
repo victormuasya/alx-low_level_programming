@@ -1,1 +1,0 @@
-muasya victor
