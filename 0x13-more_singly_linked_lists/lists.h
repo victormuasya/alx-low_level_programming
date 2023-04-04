@@ -1,3 +1,7 @@
+#ifndef FFE79C11_B13A_4B75_8AA6_52C9C3AEFF25
+#define FFE79C11_B13A_4B75_8AA6_52C9C3AEFF25
+
+
 #ifndef LISTS_H
 #define LISTS_H
 
@@ -29,3 +33,4 @@ size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 
 #endif 
+#endif /* FFE79C11_B13A_4B75_8AA6_52C9C3AEFF25 */
