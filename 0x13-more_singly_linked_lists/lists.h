@@ -7,8 +7,8 @@
 
 #include <stdlib.h>
 
-//n is interger
-// struct points to the int
+/*n is interger
+struct points to the int */
 
 typedef struct listint_s
 {
