@@ -8,6 +8,10 @@ prototype Prints all the elements of a listint_t list.*/
 
 #include "lists.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
 
 
 
