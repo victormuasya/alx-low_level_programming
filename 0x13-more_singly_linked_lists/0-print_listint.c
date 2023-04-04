@@ -1,8 +1,8 @@
 
-//File name: 0-print_listint.c
-//date created 04/04/2023
-//commited by victor muasya
-//prototype Prints all the elements of a listint_t list.
+/*File name: 0-print_listint.c
+date created 04/04/2023
+commited by victor muasya
+prototype Prints all the elements of a listint_t list.*/
  
  
 
@@ -15,7 +15,7 @@
 size_t print_listint(const listint_t *h)
 {
 	size_t nodes = 0;
-//while loop - decision statement 1
+/*while loop - decision statement 1 */
 	while (h)
 	{
 		nodes++;
